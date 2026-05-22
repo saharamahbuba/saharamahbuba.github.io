@@ -595,3 +595,35 @@ footer {
   display:none;
   font-family: monospace;
 }
+.section-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 32px 0;
+  padding: 0 0 18px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.section-links a {
+  display: inline-block;
+  padding: 7px 13px;
+  border-radius: 18px;
+  background-color: #f3f7f8;
+  color: #267a87;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.section-links a:hover {
+  background-color: #267a87;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2[id] {
+  scroll-margin-top: 25px;
+}
